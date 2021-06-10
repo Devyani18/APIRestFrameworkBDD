@@ -10,7 +10,6 @@ import io.cucumber.junit.CucumberOptions;
 		features="src/test/java/features",
 		glue={"stepDefinitions"},
 		plugin="json:target/json-reports/cucumber-report.json")
-		//tags= "@DeletePlace")
 public class TestRunner {
 
 }
